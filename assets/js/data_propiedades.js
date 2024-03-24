@@ -9,7 +9,8 @@ const data_propiedades = [
     baños: 0,
     costo: 0,
     smoke: false,
-    pets: true
+    pets: true,
+    precio: 5000
     },
     {
         idPropiedad: 2,    
@@ -21,7 +22,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 3,    
@@ -33,7 +35,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 4,    
@@ -45,7 +48,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 5,    
@@ -57,7 +61,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 6,    
@@ -69,7 +74,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 7,    
@@ -81,7 +87,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 8,    
@@ -93,7 +100,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 9,    
@@ -105,7 +113,8 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     },
     {
         idPropiedad: 10,    
@@ -117,10 +126,12 @@ const data_propiedades = [
         baños: 0,
         costo: 0,
         smoke: false,
-        pets: true
+        pets: true,
+        precio: 5000
     }
-
     ]
+
+
     
 
 
