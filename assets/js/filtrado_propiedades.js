@@ -269,13 +269,13 @@ const data_propiedades = [
         <div class="card-body">
           <h5 class="card-title">${propiedad.nombreTituloCard}</h5>
           <p class="card-text">Descripción: ${propiedad.descripcion}</p>
-          <p class="card-text">Ubicación: ${propiedad.ubicacion}</p>
-          <p class="card-text">Habitaciones: ${propiedad.habitaciones}</p>
-          <p class="card-text">Baños: ${propiedad.baños}</p>
+          <i class="fas fa-map-marker-alt">${propiedad.ubicacion}</i><br>
+          <i class="fas fa-bed">${propiedad.habitaciones}</i>   
+          <i class="fas fa-bath">${propiedad.baños}</i>  
           <p class="card-text">Costo: $${propiedad.costo}</p>
-          <p class="card-text">Fumar permitido: ${propiedad.smoke ? 'Sí' : 'No'}</p>
-          <p class="card-text">Mascotas permitidas: ${propiedad.pets ? 'Sí' : 'No'}</p>
-        </div>
+          <p ${propiedad.smoke ? "class= text-success": "class= text-danger"} >${propiedad.smoke ?  "<i class='fas fa-smoking'></i> Permitido fumar" : " <i class='fas fa-smoking-ban'></i> No se permite fumar"}</p>
+          <p ${propiedad.pets ? "class= text-success": "class= text-danger"} >${propiedad.pets ?  "<i class='fas fa-paw'></i> Mascotas permitidas" : "<i class='fas fa-ban'></i> No se permiten mascotas"}</p>
+          </div>
       </div>
     `;
   }
