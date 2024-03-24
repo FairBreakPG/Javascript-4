@@ -121,7 +121,6 @@ const data_alquiler = [
       }
 
 ]
-
 let cards = document.getElementById('divAlquiler');
 
 data_alquiler.forEach(data_alquiler => {
