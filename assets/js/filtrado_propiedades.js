@@ -282,12 +282,12 @@ const data_propiedades = [
   
   // Mostrar solo 3
   data_propiedades.slice(0, 3).forEach(propiedad => {
-    let contenedorVentas = document.getElementById('mostrarDivEnVenta');
-    contenedorVentas.innerHTML += crearPropiedadHTML(propiedad);
+    let cardVentas = document.getElementById('mostrarDivEnVenta');
+    cardVentas.innerHTML += crearPropiedadHTML(propiedad);
   });
   
   // Mostrar solo 3
   data_alquiler.slice(0, 3).forEach(propiedad => {
-    let contenedorAlquiler = document.getElementById('mostrarDivAlquiler');
-    contenedorAlquiler.innerHTML += crearPropiedadHTML(propiedad);
+    let cardAlquiler = document.getElementById('mostrarDivAlquiler');
+    cardAlquiler.innerHTML += crearPropiedadHTML(propiedad);
   });
